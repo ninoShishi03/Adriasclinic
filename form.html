@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+                <h1>Adrias Dental Clinic</h1>
+        </div>
+        <div class="row">
+                <h4 style="text-align:center">We'd love to hear from you!</h4>
+        </div>
+    <form method="post" action="email.php">
+        <div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+        <input type="text" name="name" id="name" required>
+        <label for="name">Name</label>
+    </div>
+</div>
+<div class="col-md-6 col-sm-12">
+    <div class="styled-input">
+        <input type="email" name="email" id="email" required>
+        <label for="email">Email</label>
+    </div>
+</div>
+<div class="col-md-6 col-sm-12">
+    <div class="styled-input" style="float:right;">
+        <input type="text" name="subject" id="subject" required>
+        <label for="subject">Subject</label>
+    </div>
+</div>
+<div class="col-xs-12">
+    <div class="styled-input wide">
+        <textarea name="message" id="message" required></textarea>
+        <label for="message">Message</label>
+    </div>
+</div>       
+        <br>
+        <div class="col-xs-12">
+            <button div class="btn-lrg submit-btn">Send Message</button>
+        </div>
+</div>
+</div>
+
+    </form>
+    
+</body>
+</html>
